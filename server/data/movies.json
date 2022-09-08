@@ -1,0 +1,36 @@
+[{
+  "id": 1,
+  "title": "Resident Evil",
+  "year": 2002,
+  "genres": ["Action", "Horror"],
+  "description": "Resident Evil is a 2002 action horror film written and directed by Paul W. S. Anderson. The film stars Milla Jovovich, Michelle Rodriguez, Eric Mabius, James Purefoy, Martin Crewes, and Colin Salmon. It is the first installment in the Resident Evil film series, which is loosely based on the video game series of the same name.",
+  "cover": "/img/movies/re.jpg"
+}, {
+  "id": 2,
+  "title": "逆転裁判",
+  "year": 2012,
+  "genres": ["Crime", "Drama"],
+  "description": "20XX年。凶悪犯罪の増加に対応するため、日本政府は新たな司法システム『序審裁判』を導入した。これは、弁護士と検事の公開法廷における直接対決で、証拠と証拠をぶつけあいながら、3日以内に被告人の有罪・無罪のみを先行決定する制度である。",
+  "cover": "/img/movies/gyakuten.jpg"
+}, {
+  "id": 3,
+  "title": "Warcraft",
+  "year": 2016,
+  "genres": ["Action", "Fantasy"],
+  "description": "Warcraft (alternatively known as Warcraft: The Beginning) is a 2016 American action fantasy film based on the video game series and franchise of the same name. Directed by Duncan Jones and written by Charles Leavitt and Jones, it stars Travis Fimmel, Paula Patton, Ben Foster, Dominic Cooper, Toby Kebbell, Ben Schnetzer, Robert Kazinsky, Clancy Brown, and Daniel Wu. The film follows Anduin Lothar of Stormwind and Durotan of the Frostwolf clan as heroes set on opposite sides of a growing war, as the warlock Gul'dan leads the Horde to invade Azeroth using a magic portal. Together, a few human heroes and dissenting Orcs must attempt to stop the true evil behind this war and restore peace.",
+  "cover": "/img/movies/warcraft.jpg"
+}, {
+  "id": 4,
+  "title": "Pokémon Detective Pikachu",
+  "year": 2019,
+  "genres": ["Action", "Adventure"],
+  "description": "Pokémon Detective Pikachu is a 2019 mystery film directed by Rob Letterman. Based on the Pokémon franchise, the film is a loose adaptation of the 2016 video game Detective Pikachu.",
+  "cover": "/img/movies/pokemon.jpg"
+}, {
+  "id": 5,
+  "title": "Uncharted",
+  "year": 2022,
+  "genres": ["Action", "Adventure"],
+  "description": "Uncharted is a 2022 American action-adventure film directed by Ruben Fleischer from a screenplay by Rafe Lee Judkins, Art Marcum, and Matt Holloway, based on the video game franchise of the same name developed by Naughty Dog and published by Sony Interactive Entertainment.",
+  "cover": "/img/movies/uncharted.jpg"
+}]

@@ -17,7 +17,7 @@ interface MovieShort {
 // IDB
 const STORE_NAME = 'offline';
 const idb = {
-  getDB() {
+  getDB() : Promise<IDBDatabase> {
     return new Promise((resolve, reject) => {
       const openRequest = indexedDB.open('offline', 1);
 
@@ -46,7 +46,7 @@ const idb = {
       idb.getDB().then((db) => {
         const store = db.transaction(STORE_NAME, 'readwrite').objectStore(STORE_NAME);
 
-        const promises : Array<Promise<>> = [];
+        const promises : Array<Promise<any>> = [];
 
         movies.forEach((movie) => {
           promises.push(new Promise((resolveWrite) => {

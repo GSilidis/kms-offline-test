@@ -138,7 +138,7 @@ const imgResponse = async (cache: Cache) => {
 };
 
 const apiResponse = async (cache: Cache, url: string) => {
-  const buildResponse = (data: any) => {
+  const buildResponse = (data: unknown) => {
     return new Response(JSON.stringify(data), { headers: { 'Content-Type': 'application/json' } });
   };
 

@@ -21,7 +21,10 @@ import { useRoute } from 'vue-router';
 
 const route = useRoute();
 
-const { data: movie, isFetching } = useFetch(`/api/movies/${route.params.id}`).get().json();
+const {
+  data: movie,
+  isFetching,
+} = useFetch(`/api/movies/${route.params.id}`).get().json();
 
 </script>
 

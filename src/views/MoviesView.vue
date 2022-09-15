@@ -12,5 +12,8 @@
 <script lang="ts" setup>
 import { useFetch } from '@vueuse/core';
 
-const { isFetching, data: movies } = useFetch('/api/movies').get().json();
+const {
+  data: movies,
+  isFetching,
+} = useFetch('/api/movies').get().json();
 </script>
